@@ -13,14 +13,14 @@ screenshots
 ariane
 ------
 
-![[images/ariane.png]]
+![ariane](images/ariane.png)
 
 cattleya
 --------
 
-![[images/cattleya.png]]
+![cattleya](images/cattleya.png)
 
 project leviathan
 -----------------
 
-![[images/leviathan.png]]
+![leviathan](images/leviathan.png)
