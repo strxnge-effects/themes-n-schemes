@@ -258,15 +258,15 @@
     </LexerStyles>
     <GlobalStyles>
         <!-- Attention : Don't modify the name of styleID="0" -->
-        <WidgetStyle name="Global override" styleID="0" fgColor="FFFFFF" bgColor="000000" fontName="Inziu Iosevka J" fontStyle="0" fontSize="11" />
-        <WidgetStyle name="Default Style" styleID="32" fgColor="FFFFFF" bgColor="000000" fontName="M PLUS 1 Code" fontStyle="0" fontSize="12" />
+        <WidgetStyle name="Global override" styleID="0" fgColor="FFFFFF" bgColor="000000" fontName="" fontStyle="" fontSize="11" />
+        <WidgetStyle name="Default Style" styleID="32" fgColor="FFFFFF" bgColor="000000" fontName="Consolas" fontStyle="" fontSize="11" />
         <WidgetStyle name="Indent guideline style" styleID="37" fgColor="333333" bgColor="000000" fontName="" fontStyle="0" fontSize="" />
         <WidgetStyle name="Brace highlight style" styleID="34" fgColor="FFFFFF" bgColor="FF00AA" fontName="" fontStyle="1" fontSize="10" />
         <WidgetStyle name="Bad brace colour" styleID="35" fgColor="FFFFFF" bgColor="E84D49" fontName="" fontStyle="0" fontSize="" />
         <WidgetStyle name="Current line background colour" styleID="0" bgColor="001B27" fgColor="FFFFFF" fontSize="" fontStyle="0" />
         <WidgetStyle name="Selected text colour" styleID="0" bgColor="004444" fgColor="FFFFFF" fontStyle="0" />
         <WidgetStyle name="Caret colour" styleID="2069" fgColor="FF0099" bgColor="000000" fontStyle="0" />
-        <WidgetStyle name="Edge colour" styleID="0" fgColor="4200A6" bgColor="000000" fontSize="" fontStyle="0" />
+        <WidgetStyle name="Edge colour" styleID="0" fgColor="646464" bgColor="000000" fontSize="" fontStyle="0" />
         <WidgetStyle name="Line number margin" styleID="33" fgColor="646464" bgColor="000000" fontName="" fontStyle="0" fontSize="" />
         <WidgetStyle name="Fold" styleID="0" fgColor="B584FA" bgColor="000000" fontStyle="0" fontSize="" />
         <WidgetStyle name="Fold active" styleID="0" fgColor="B584FA" fontStyle="0" fontSize="" bgColor="000000" />
