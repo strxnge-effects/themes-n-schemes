@@ -1,0 +1,6 @@
+[Text]
+Normal=#F5F5F5
+Current=#AC43E8
+NormalBG=#000000
+SelectedBG=#1A1A1A
+Font=MS UI Gothic

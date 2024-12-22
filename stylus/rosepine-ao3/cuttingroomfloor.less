@@ -1,0 +1,57 @@
+body * {
+  font-family: serif;
+}
+
+
+.expanded .expander::before {
+  // note: the "more" section doesn't work with the regular "aria-expanded",
+  // for whatever reason, so you gotta do this instead..
+  content: "▾";
+}
+
+.expander {
+  color: @color-text;
+  background: none !important;
+
+  &::before {
+    content: "▸";
+  }
+
+  &[aria-expanded="true"] {
+    &::before {
+      content: "▾";
+    }
+  }
+}
+
+
+.indicator::before {
+  background: none;
+  content: "O";
+  color: inherit;
+  font-family: sans-serif;
+  border-radius: 0;
+}
+
+[type="radio"]:checked + .indicator::before {
+  background-image: none;
+}
+
+[type="checkbox"] + .indicator::before {
+  border-radius: .5em;
+}
+
+[type="checkbox"]:checked + .indicator::before {
+  color: @color-pine;
+  background: none @color-text;
+}
+
+
+
+// == idk
+  input.button,
+  dd.submit.actions input {
+    color: @color-text;
+    background: @color-base;
+    border-color: @color-hl-high;
+  }

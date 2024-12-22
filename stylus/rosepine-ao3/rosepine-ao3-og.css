@@ -1,0 +1,131 @@
+/* = 1. body */
+body * {
+  font-family: serif;
+}
+
+body,
+option {
+  color: #e0def4;
+  background: #191724;
+}
+
+.primary.navigation.actions :is(a, input.button) {
+  color: #191724 !important;
+}
+
+#header .heading :is(a, a:hover, a:focus) {
+  color: #eb6f92;
+}
+
+#header #greeting a,
+#header #greeting a:visited,
+.filters :is(.expander, .expander[aria-expanded="true"]) {
+  color: #e0def4;
+  background: none;
+}
+
+.filters .expander:before {
+  content: "▸";
+}
+
+.filters .expander[aria-expanded="true"]:before {
+  content: "▾";
+}
+
+.filters .indicator::before {
+  background: none;
+  content: "O";
+  color: inherit;
+  font-family: sans-serif;
+  border-radius: 0;
+}
+
+.filters [type="radio"]:checked + .indicator::before {
+  background-image: none;
+}
+
+.filters [type="checkbox"] + .indicator::before {
+  border-radius: .5em;
+}
+
+.filters [type="checkbox"]:checked + .indicator::before {
+  color: #31748f;
+  background: none #e0def4;
+}
+
+/* = 2. links */
+#header .user a:hover,
+#header .user a:focus,
+li a,
+.user.navigation.actions a.dropdown-toggle,
+a,
+a.tag,
+:is(.series, .summary) a {
+  color: #9ccfd8;
+}
+
+#header .primary a:hover,
+#header .primary a:focus {
+  background: #eb6f92;
+}
+
+a:hover,
+a.tag:hover,
+#header .actions a:hover,
+#header .actions a:focus,
+#header .dropdown:hover a,
+#header .open a
+option:hover,
+option:focus {
+  background: #403d52;
+}
+
+li.relationships a {
+  background: #26233a;
+}
+
+.blurb h4 a:link {
+  color: #31748f;
+}
+
+#header .primary {
+  background: #eb6f92;
+  background-image: none;
+}
+
+h1.heading {
+  margin-left: 2.5%;
+}
+
+#header .dropdown .menu,
+a.dropdown-toggle {
+  background: #26233a;
+}
+
+#header .dropdown .menu a:hover,
+#header .dropdown .menu a:focus,
+a.dropdown-toggle {
+  background: #393552;
+}
+
+/* == 3. idk */
+fieldset {
+  background: #1f1d2e;
+}
+
+input.button,
+dd.submit.actions input,
+select#work_search_sort_column,
+.user.navigation.actions :is(span, a, input) {
+  color: #e0def4;
+  background: none;
+  border-color: #524f67;
+}
+
+img.logo {
+  display: none;
+}
+
+::selection {
+  background: #403d52;
+}
